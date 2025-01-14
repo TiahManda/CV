@@ -62,7 +62,7 @@ nav ul li a:hover {
     color: var(--font-color);
 }
 
-.active {
+nav ul li .active {
     color: var(--second-font-color);
 }
 
