@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tiaheranto Mandaniaina personal website">
+    <meta name="keywords" content="Tiaheranto, TiahManda">
+    <meta name="author" content="TiahManda">
+    <meta http-equiv="refresh" content="3600">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/MyLogo-no-bg.png" alt="Logo" width="150px">
+        </div>
+        <ul id="menu-list">
+            <li class="menu"><a href="index.html">Home</a></li>
+            <li class="menu"><a href="#">Services</a></li>
+            <li class="menu"><a href="cv.html">CV</a></li>
+            <li class="menu"><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-icon">
+            <i class="bx bx-menu" id="menu-icon" onclick="toogleMenu()"></i>
+        </div>
+    </nav>
+
+    <div class="contact-tiahm">
+        <ul>
+            <li class="contact">
+                <i class="bx bx-phone"> +261 34 91 160 56</i>
+            </li>
+            <li class="contact">
+                <i class="bx bxl-facebook-circle"> Tiah Manda</i>
+            </li>
+            <li class="contact">
+                <i class="bx bxs-envelope"> mandaniainatiaheranto@gmail.com</i>
+            </li>
+            <li class="contact">
+                <i class="bx bxl-whatsapp"> +261 34 91 160 56</i>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        let menuList = document.getElementById("menu-list");
+        menuList.style.maxHeight = "0px";
+
+        function toogleMenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "300px"
+            } else {
+                menuList.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>s
